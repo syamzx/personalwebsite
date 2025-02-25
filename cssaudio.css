@@ -1,0 +1,14 @@
+body {
+    background-image: url(gf.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 { 
+    font-size: xx-large;
+    color: rgb(249, 249, 249);
+    font-family: verdana;
+
+}

@@ -1,0 +1,17 @@
+body {
+    background-image: url(buatweb1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h4{ 
+    font-size: small;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+h1{
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+    
+}

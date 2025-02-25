@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #282828;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.music-player {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 300px;
+}
+
+.cover img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.info {
+    margin: 15px 0;
+}
+
+.controls button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.volume-control {
+    margin-top: 15px;
+}
+
+.volume-control input {
+    width: 100%;
+}

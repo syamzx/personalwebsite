@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursor Coordinates</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        #coordinates {
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: white;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="coordinates">Mouse Coordinates: (X: 0, Y: 0)</div>
+
+    <script>
+        const coordinatesDisplay = document.getElementById('coordinates');
+
+        document.addEventListener('mousemove', (event) => {
+            const x = event.clientX;
+            const y = event.clientY;
+            coordinatesDisplay.textContent = `Mouse Coordinates: (X: ${x}, Y: ${y})`;
+        });
+    </script>
+
+</body>
+</html>
